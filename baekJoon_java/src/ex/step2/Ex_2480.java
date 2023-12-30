@@ -1,4 +1,4 @@
-package ex;
+package ex.step2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

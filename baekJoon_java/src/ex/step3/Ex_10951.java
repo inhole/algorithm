@@ -1,26 +1,27 @@
-package ex;
+package ex.step3;
 
 import java.io.IOException;
 
 /**
- * 문제 11022번 : A+B-8
+ * 문제 10951번 : A+B-4
  *
- * @since 2023-12-26
+ * @since 2023-12-28
  */
-public class Ex_11022 {
+public class Ex_10951 {
     public static void main(String[] args) throws IOException {
         /*
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int T = Integer.parseInt(br.readLine()); // 첫 줄, 테스트케이스의 개수 T
-
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        for (int i = 0; i < T; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+        String str;
+        while ( ( str = br.readLine() ) != null ) {
+            StringTokenizer st = new StringTokenizer(str, " ");
             int A = Integer.parseInt(st.nextToken());
             int B = Integer.parseInt(st.nextToken());
-            bw.write( "Case #" + ( i + 1 ) + ": " + A + " + " + B + " = " + ( A + B ) +"\n");
+
+            bw.write(( A + B ) + "\n");
         }
+
         bw.flush(); // 남아있는 데이터를 모두 출력.
         bw.close(); // 스트림을 닫음 / TODO : 스트림은 '데이터의 흐름' 입니다.
         */

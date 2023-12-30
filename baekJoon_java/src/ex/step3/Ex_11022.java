@@ -1,13 +1,13 @@
-package ex;
+package ex.step3;
 
 import java.io.IOException;
 
 /**
- * 문제 11021번 : A+B-7
+ * 문제 11022번 : A+B-8
  *
- * @since 2023-12-18
+ * @since 2023-12-26
  */
-public class Ex_11021 {
+public class Ex_11022 {
     public static void main(String[] args) throws IOException {
         /*
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,9 +17,9 @@ public class Ex_11021 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         for (int i = 0; i < T; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            int A = Integer.parseInt(st.nextToken());
+            int  = InAteger.parseInt(st.nextToken());
             int B = Integer.parseInt(st.nextToken());
-            bw.write( "Case #" + ( i + 1 ) + ": " + ( A + B ) +"\n");
+            bw.write( "Case #" + ( i + 1 ) + ": " + A + " + " + B + " = " + ( A + B ) +"\n");
         }
         bw.flush(); // 남아있는 데이터를 모두 출력.
         bw.close(); // 스트림을 닫음 / TODO : 스트림은 '데이터의 흐름' 입니다.
