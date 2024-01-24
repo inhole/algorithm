@@ -10,20 +10,21 @@ import java.io.IOException;
 public class Ex_10807 {
     public static void main(String[] args) throws IOException {
         /*
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
 
-        String str;
-        while ( ( str = br.readLine() ) != null ) {
-            StringTokenizer st = new StringTokenizer(str, " ");
-            int A = Integer.parseInt(st.nextToken());
-            int B = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(br.readLine());
 
-            bw.write(( A + B ) + "\n");
-        }
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int[] nums = new int[N];
+		for(int i = 0; i < N; i++) nums[i] = Integer.parseInt(st.nextToken());
 
-        bw.flush(); // 남아있는 데이터를 모두 출력.
-        bw.close(); // 스트림을 닫음 / TODO : 스트림은 '데이터의 흐름' 입니다.
+		int v = Integer.parseInt(br.readLine());
+		int cnt = 0;
+
+		for(int i = 0; i < N; i++) if(nums[i] == v) cnt++;
+		sb.append(cnt);
+		System.out.println(sb);
         */
     }
 }
