@@ -1,12 +1,11 @@
-import java.io.BufferedReader;
+package ex.step6;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
-public class Main {
-
+public class Ex_25206 {
 
     public static void main(String[] args) throws IOException {
+/*
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         double tot1 = 0;
@@ -39,5 +38,7 @@ public class Main {
         if (str.equals("F")) num =  0.0;
         return num;
     }
+*/
 
+    }
 }
