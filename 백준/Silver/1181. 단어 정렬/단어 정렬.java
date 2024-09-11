@@ -24,6 +24,12 @@ public class Main {
                                 .sorted((s1, s2) -> s1.length() - s2.length() != 0 ? s1.length() - s2.length() : s1.compareTo(s2))
                                 .toArray(String[]::new);
 
-        System.out.println(String.join("\n", result));
+
+        StringBuilder sb = new StringBuilder();
+        for (String item : result) {
+            sb.append(item);
+            sb.append("\n");
+        }
+        System.out.println(sb);
     }
 }
