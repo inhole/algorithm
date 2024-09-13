@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -19,13 +20,7 @@ public class Main {
             arr[i][1] = st.nextToken();
         }
 
-        Arrays.sort(arr, (s1, s2) -> {
-            if (Integer.parseInt(s1[0]) == Integer.parseInt(s2[0])) {
-                return 0;
-            } else {
-                return Integer.parseInt(s1[0]) - Integer.parseInt(s2[0]);
-            }
-        });
+        Arrays.sort(arr, Comparator.comparingInt(s -> Integer.parseInt(s[0])));
 
         StringBuilder sb = new StringBuilder();
         for (String[] i : arr) {
